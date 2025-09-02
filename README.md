@@ -83,7 +83,7 @@ Dilakukan melalui dua skenario eksperimen utama:
 - Mengatasi bottleneck pada pesanan besar dengan waktu pengemasan lebih lama  
 
 📌 **Hasil**:
-- Rata-rata panjang antrian Loket turun menjadi hanya 1 pelanggan
+- Rata-rata panjang antrian loket turun menjadi hanya 1 pelanggan
 - Waktu tunggu rata-rata: 27 detik (loket pemesanan), 40 detik (loket pembayaran)  
 - Tidak ada pelanggan yang meninggalkan antrian (balk)
 - Jumlah pelanggan meningkat menjadi 205 orang
