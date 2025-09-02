@@ -1,7 +1,6 @@
 # 🍞 Botani Bakery Queue Simulation
 
-Repository ini merupakan implementasi penelitian simulasi antrian yang dirancang untuk menganalisis sistem pelayanan Botani Bakery.  
-Penelitian berfokus pada pemodelan dinamika antrian dan evaluasi kinerja sistem melalui pendekatan **Discrete-Event Simulation (DES)**.
+Repository ini merupakan implementasi penelitian simulasi antrian yang dirancang untuk menganalisis sistem pelayanan Botani Bakery. Penelitian berfokus pada pemodelan dinamika antrian dan evaluasi kinerja sistem melalui pendekatan **Discrete-Event Simulation (DES)**.
 
 ---
 
