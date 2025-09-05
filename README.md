@@ -1,6 +1,6 @@
 # 🍞 Botani Bakery Queue Simulation
 
-Repository ini merupakan implementasi penelitian simulasi antrian yang dirancang untuk menganalisis sistem pelayanan Botani Bakery. Penelitian berfokus pada pemodelan dinamika antrian dan evaluasi kinerja sistem melalui pendekatan **Discrete-Event Simulation (DES)**.
+Repository ini merupakan implementasi penelitian simulasi antrian yang dirancang untuk menganalisis sistem pelayanan Botani Bakery. Penelitian berfokus pada pemodelan dinamika antrian dan evaluasi kinerja sistem melalui pendekatan Discrete-Event Simulation (DES).
 
 ---
 
@@ -26,7 +26,7 @@ Penelitian ini bertujuan untuk:
 ---
 
 ## 🧩 Model Simulasi
-Model dikembangkan berdasarkan **data observasi lapangan** dengan proses **parameter fitting** untuk menentukan distribusi probabilitas yang sesuai.  
+Model dikembangkan berdasarkan data observasi lapangan dengan proses parameter fitting untuk menentukan distribusi probabilitas yang sesuai.  
 
 Karakteristik sistem yang dimodelkan:
 - Pola kedatangan pelanggan yang stochastic  
@@ -52,21 +52,21 @@ Botani-Bakery-Queue-Simulation/
 ---
 
 ## 🛠️ Teknologi dan Tools
-- **Bahasa Pemrograman**: `Julia (v1.x)`  
-- **Framework Simulasi**: `ConcurrentSim.jl`  
-- **Analisis Statistik**: `Distributions.jl`, `HypothesisTests.jl`  
-- **Visualisasi**: `Plots.jl`, `StatsPlots.jl`  
-- **Environment**: `Jupyter Notebook`  
-- **Version Control**: `Git/GitHub`  
+- Bahasa Pemrograman: `Julia (v1.x)`  
+- Framework Simulasi: `ConcurrentSim.jl`  
+- Analisis Statistik: `Distributions.jl`, `HypothesisTests.jl`  
+- Visualisasi: `Plots.jl`, `StatsPlots.jl`  
+- Environment: `Jupyter Notebook`  
+- Version Control: `Git/GitHub`  
 
 ---
 
 ## 🧪 Penelitian dan Eksperimen
 
-Pendekatan: **Discrete-Event Simulation (DES)**  
+Pendekatan: Discrete-Event Simulation (DES)  
 Dilakukan melalui dua skenario eksperimen utama:
 
-### 1. 📊 Eksperimen Antrian Normal (Existing System)  
+### 1. 📊 Eksperimen Antrian Normal  
 - Dua server pada loket pemesanan & loket pembayaran  
 - Merepresentasikan kondisi current tanpa modifikasi  
 
@@ -78,7 +78,7 @@ Dilakukan melalui dua skenario eksperimen utama:
 
 ---
 
-### 2. 🚀 Eksperimen Penambahan Server Snackbox (Improvement Scenario)  
+### 2. 🚀 Eksperimen Penambahan Server Snackbox  
 - Menambahkan server khusus untuk menangani pesanan snackbox  
 - Mengatasi bottleneck pada pesanan besar dengan waktu pengemasan lebih lama  
 
@@ -91,4 +91,4 @@ Dilakukan melalui dua skenario eksperimen utama:
 ---
 
 ## ✅ Kesimpulan
-Hasil simulasi menunjukkan bahwa penambahan server khusus untuk snackbox merupakan intervensi yang efektif untuk mengurangi panjang antrian, mempercepat waktu tunggu, dan meningkatkan efisiensi sistem pelayanan. Dengan demikian, strategi ini direkomendasikan sebagai **solusi berbasis bukti (evidence-based improvement)** bagi Botani Bakery.  
+Hasil simulasi menunjukkan bahwa penambahan server khusus untuk snackbox merupakan intervensi yang efektif untuk mengurangi panjang antrian, mempercepat waktu tunggu, dan meningkatkan efisiensi sistem pelayanan. Dengan demikian, strategi ini direkomendasikan sebagai solusi berbasis bukti (evidence-based improvement) bagi Botani Bakery.  
